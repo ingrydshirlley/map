@@ -1,0 +1,93 @@
+.card {
+    min-height: 28rem;
+    min-width: 380px;
+    background-color: #F5E7D3;
+    display: grid;
+    padding: 35px;
+    overflow: hidden;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sigla {
+    width: 100px;
+    height: 100px;
+    background-color: #FA9E27;
+    border-radius: 50%;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    grid-area: sigla;
+}
+
+span {
+    font-weight: 900;
+    font-size: 36px;
+    color: #fff;
+}
+
+.descricao {
+    grid-area: descricao;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 200px;
+}
+
+.estado {
+    grid-template-areas: "sigla" "descricao";
+    display: flex;
+    height: 147px;
+    gap: 20px;
+}
+
+.nome-estado {
+    padding-top: 20px;
+    color: #FA9E27;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.nome-capital {
+    display: flex;
+    font-size: 18px;
+    gap: 10px;
+    align-items: center;
+}
+
+.nome-regiao {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.cidade {
+    display: grid;
+}
+
+.cidades {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: slateblue;
+    justify-content: center;
+    width: auto;
+}
+
+.nome-cidade {
+    position: relative;
+}
+
+.coluna-cidades {
+    background-color: seashell;
+    padding-left: 20px;
+}

@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    display: grid;
+    height: 100vh;
+}
+
+path {
+    fill: #eccea7;
+    stroke: #fff;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+path:hover {
+    fill: #fa9e27;
+    transition: .5s;
+}
+
+.right_side {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 50px;
+}
+
+.map-container {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    padding-right: 35px;
+    padding-top: 135px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
