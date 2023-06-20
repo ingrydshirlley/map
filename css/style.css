@@ -7,13 +7,16 @@
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Public Sans', sans-serif;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
     height: 100vh;
 }
 
 path {
     fill: #eccea7;
-    stroke: #fff;
+    stroke: #ffffff;
     stroke-width: 2px;
     cursor: pointer;
 }
@@ -23,30 +26,34 @@ path:hover {
     transition: .5s;
 }
 
-.right_side {
-    width: 40%;
+.map-container {
     display: flex;
+    width: 50%;
     align-items: center;
-    padding-left: 35px;
-    padding-top: 50px;
+    justify-content: end;
 }
 
-.map-container {
-    width: 60%;
+.right_side {
     display: flex;
-    justify-content: end;
-    padding-right: 35px;
-    padding-top: 135px;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 90px;
+    height: 100%;
 }
 
 .container {
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    width: 100%;
+    margin-bottom: 50px;
 }
